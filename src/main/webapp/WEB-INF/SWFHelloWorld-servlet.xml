@@ -21,11 +21,9 @@
         <flow:flow-location-pattern value="/**/*-flow.xml" />
     </flow:flow-registry>
 
-    <flow:flow-builder-services id="flowBuilderServices" 
-                                view-factory-creator="mvcViewFactoryCreator"/>
+    <flow:flow-builder-services id="flowBuilderServices" view-factory-creator="mvcViewFactoryCreator"/>
 
-    <bean id="mvcViewFactoryCreator" 
-              class="org.springframework.webflow.mvc.builder.MvcViewFactoryCreator">
+    <bean id="mvcViewFactoryCreator" class="org.springframework.webflow.mvc.builder.MvcViewFactoryCreator">
         <property name="defaultViewSuffix" value=".jspx" />   
     </bean>
 
