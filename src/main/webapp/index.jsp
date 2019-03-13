@@ -9,7 +9,7 @@
     </head>
     <body>
         <h1>Spring Web Flow 2.x Tutorial - Hello World</h1>
-        <a href="<%= request.getContextPath() %>/helloworld" 
-           title="Go!">Go!</a>
+        <a href="<%= request.getContextPath() %>/helloworld" title="Hello World!">Hello World!</a></p>
+        <a href="<%= request.getContextPath() %>/pizza-singleflow" title="Pizza!">Pizza!</a>
     </body>
 </html>
