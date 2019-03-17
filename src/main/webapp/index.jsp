@@ -10,6 +10,7 @@
     <body>
         <h1>Spring Web Flow 2.x Tutorial - Hello World</h1>
         <a href="<%= request.getContextPath() %>/helloworld" title="Hello World!">Hello World!</a></p>
-        <a href="<%= request.getContextPath() %>/pizza-singleflow" title="Pizza!">Pizza!</a>
+        <a href="<%= request.getContextPath() %>/pizza-singleflow" title="Pizza!">Pizza!</a></p>
+        <a href="<%= request.getContextPath() %>/pizza" title="New Pizza!">New Pizza!</a>
     </body>
 </html>
